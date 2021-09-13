@@ -1,8 +1,12 @@
-# This is a basic workflow to help you get started with Actions
+## This is a basic workflow to help you get started with Actions
 
+# Optional - The name of the workflow as it will appear in the Actions tab of the GitHub repository.
 name: learn-github-actions
 
-# Controls when the workflow will run
+## Controls when the workflow will run
+#	Specify the event that automatically triggers the workflow file. 
+# This example uses the push event, so that the jobs run every time someone pushes a change to the repository. 
+# You can set up the workflow to only run on certain branches, paths, or tags. 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
